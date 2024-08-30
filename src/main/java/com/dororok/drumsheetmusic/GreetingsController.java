@@ -10,4 +10,13 @@ public class GreetingsController {
         return "hello";
     }
 
+    @GetMapping("/test")
+    public String test() {
+        System.out.println("=======================");
+        System.out.println("/test api is requested");
+        System.out.println("=======================");
+        return "hello";
+    }
+
+
 }
